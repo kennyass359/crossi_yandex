@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+.subtitle {
+  margin-left: 9%;
+}
+
+.container__text {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.container__image {
+  width: 370px;
+}
+
+p {
+  font-family: "Anonymous Pro", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Anonymous Pro", Arial, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Anonymous Pro", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  width: 370px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  
+}
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header {
+  background-color: white;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.footer {
+  background-color: black;
+  height: 142px;
+  margin-top: 30px;
+  
+}
+
+.container__title {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #A1A6B4;
+  font-family: "Anonymous Pro", Arial, sans-serif;
+}
+
+.nav__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+hr {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h3 {
+  font-family: "Anonymous Pro", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Anonymous Pro", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  width: 370px;
+}
+
+.title {
+  width: 213px;
+}
+
+.header__nav {
+  margin-left: 200px;
+  list-style-type: none;
+  font-family: anonymous pro;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.header__nav img {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .subtitle {
+      font-size: larger;
+  }
+
+  .title {
+    width: 150px;
+  }
+}
